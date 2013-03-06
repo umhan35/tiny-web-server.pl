@@ -1,10 +1,10 @@
 # A tiny web server 
 
-It uses stream sockets and is written in Perl.
+It uses stream sockets and is written in Perl. I wrote it for my Distributed Computing course.
 
 It supports
- - GET and POST methods (handling parameters passed via either method).
+ - `GET` and `POST` methods (handling parameters passed via either method).
  - the sending of cookies
- - the execution of server-side scripts (scripts have the ".cgi" extension only and everything else is just a page)
+ - the execution of server-side scripts (scripts have the `.cgi` extension only and everything else is just a page)
 
 The `site` folder is a website to test on.

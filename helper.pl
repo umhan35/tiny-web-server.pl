@@ -38,7 +38,7 @@ sub processGet {
 }
 
 sub checkSetQueryString {
-  my $uri = $_;
+  my $uri = $_[0];
   
   if($uri =~ /\?/) { # has params
     my $params;
